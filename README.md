@@ -9,13 +9,13 @@ You'll need to run two terminals (or bring in a process manager like concurrentl
 Start the Remix development asset server
 
 ```sh
-npm run dev
+yarn dev
 ```
 
 In a new tab start your express app:
 
 ```sh
-npm run start:dev
+yarn start:dev
 ```
 
 This starts your app in development mode, which will purge the server require cache when Remix rebuilds assets so you don't need a process manager restarting the express server.
@@ -25,13 +25,13 @@ This starts your app in development mode, which will purge the server require ca
 First, build your app for production:
 
 ```sh
-npm run build
+yarn build
 ```
 
 Then run the app in production mode:
 
 ```sh
-npm start
+yarn start
 ```
 
 Now you'll need to pick a host to deploy it to.
