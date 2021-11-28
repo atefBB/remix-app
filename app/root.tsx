@@ -149,5 +149,11 @@ function Layout({ children }: { children: React.ReactNode }) {
 }
 
 function Logo() {
-  return <p>SniLogo</p>;
+  return (
+    <img
+      src="https://atefbb.github.io/cv-react-app/static/media/logo.d809dc68.jpg"
+      class="app-logo"
+      alt="Atef Ben Ali logo"
+    />
+  );
 }
