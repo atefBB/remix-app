@@ -47,6 +47,9 @@ export default function Index() {
     <div className="remix__page">
       <main>
         <h2>Welcome to Remix!</h2>
+        <li>
+          <Link to="/posts">Posts</Link>
+        </li>
       </main>
       <aside>
         <h2>Demos In This App</h2>
